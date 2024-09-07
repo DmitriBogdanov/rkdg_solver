@@ -1,0 +1,18 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignConsecutiveDeclarations: AcrossComments
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: Yes
+ColumnLimit: 120
+IndentWidth: 4
+MaxEmptyLinesToKeep: 6
+PointerAlignment: Left
+SpacesInContainerLiterals: false
+TabWidth: 4

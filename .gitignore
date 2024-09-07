@@ -1,0 +1,27 @@
+# Ignore everything
+*
+
+# Whitelist directories
+!*/
+# Whitelist itself
+!.gitignore
+# Whitelist toolchain configs
+!.clang-format
+!.clang-tidy
+!.clangd
+# Whilelist extensions allowed in the root
+# > Documentation
+!*.md
+# > Build scripts
+!*.txt
+!*.sh
+# Whitelist folders that are allowed fully
+!/docs/**
+!/scripts/**
+!/source/**
+!/test/**
+
+# Ignore build & temporary directories regarless of their contents
+.cache/
+build/
+temp/
