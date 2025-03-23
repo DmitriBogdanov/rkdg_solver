@@ -18,6 +18,7 @@
 # Whitelist folders that are allowed fully
 !/docs/**
 !/scripts/**
+!/include/**
 !/source/**
 !/test/**
 
